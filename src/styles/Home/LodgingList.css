@@ -1,0 +1,22 @@
+.lodgings-list {
+    width: 100%;
+    padding: 3% 0;
+    box-sizing: border-box;
+    background-color: var(--secondary-color);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: -2rem;
+}
+
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 768px){
+    .lodgings-list{
+        padding: 0;
+        background-color: unset;
+        margin-bottom: -4rem;
+    }
+}

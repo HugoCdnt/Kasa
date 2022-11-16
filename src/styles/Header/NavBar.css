@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    margin: 0 0 0 50px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* MOBILE DEVICES  */
+@media only screen and (max-width: 768px){
+    nav{
+        max-width: 60%;
+    }
+    
+    .navbar{
+        padding: 0;
+        display: flex;
+    }
+    
+    .navbar li{
+        font-size: .7rem;
+        margin: 0 0 0 20px;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+}
